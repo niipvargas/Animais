@@ -10,7 +10,8 @@ public class Gato extends Animal {
     @Override
     public void emitirSom() {
         System.out.println("Nome é: " + this.Nome);
-        System.out.println("Esse animal mia e tem " + this.Idade + " anos");
+        System.out.println("Idade é: "+ this.Idade+" anos");
+        System.out.println("Esse animal mia");
     }
     
 }
